@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="ShoppingCart.css">
+    <script src="ShoppingCart.js" async></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <navbar class="my-navbar">
+        <div class="logo">
+            <img src="https://img.icons8.com/doodle/48/null/satoru-gojo.png"/>
+            <strong>Shopping Cart</strong>
+        </div>
+        <div class="cart">
+            <strong>Cart Item</strong>
+            <!-- <img src="/images/EmptyCart.svg" alt="Cart image" id="cart-img"> -->
+            <img src="https://img.icons8.com/dotty/80/null/shopping-cart.png" id="cart-img"/>
+        </div>
+    </navbar>
+    <!-- My-Modal -->
+    <div class="my-modal">
+        <div class="modal-content">
+            <hr>
+            <div class="heading-cart">
+                <div class="main-headings">
+                    <h2>Product</h2>
+                    <h2>Price</h2>
+                    <h2>Qty</h2>
+                </div>
+                
+                <div class="close">
+                    <span id="close-btn">&times;</span>
+                </div>
+                <div> </div>
+            </div>
+            <hr>
+            <!-- copying item in modal -->
+            <div id="added-items">
+
+                <!-- <div class="modal-cart">
+                    <div class="modal_product_detail">
+                        <img src="/images/ProductImages/product1.avif" alt="product1" class="modal_product_img">
+                        <span class="modal_product_name">Headphone</span>
+                    </div>
+                    <div class="modal_price_detail">
+                        <strong>&#x20B9;</strong>
+                        <span class="modal_product_price">1000</span>
+                    </div>
+                    <div class="qty_div">
+                        <strong class="increase_item">&plus;</strong>
+                        <strong class="item_qty">1</strong>
+                        <strong class="decrease_item">&minus;</strong>
+                    </div>
+                    <div class="remove">
+                        <button class="remove_product">
+                            Remove
+                        </button>
+                    </div>
+                </div>  -->
+            </div>
+            <br>
+            <hr>
+            <div class="total-div">
+                <strong>Total price </strong><strong>&#x20B9;</strong>
+                <Strong id="Total-price">0.00</Strong>
+            </div>
+           
+        </div>
+    </div>
+
+    <h2>Shopping Items</h2>
+    <div class="grid-container">
+        <div class="items">
+            <img src="/images/ProductImages/product1.avif" alt="product1" class="product_img">
+            <span class="product_name">Headphone</span>
+            <div class="price_detail">
+                <strong>&#x20B9;</strong>
+                <span class="product_price">1000</span>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        <div class="items">
+            <img src="/images/ProductImages/product2.avif" alt="product2" class="product_img">
+            <span class="product_name">Face-Kit</span>
+            <div class="price_detail">
+                <strong>&#x20B9;</strong>
+                <span class="product_price">3000</span>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        <div class="items">
+            <img src="/images/ProductImages/product3.avif" alt="product3" class="product_img">
+            <span class="product_name">Gucci Shoes</span>
+            <div class="price_detail">
+                <strong>&#x20B9;</strong>
+                <span class="product_price">2000</span>
+            </div>on
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        <div class="items">
+            <img src="/images/ProductImages/product4.jpg" alt="product4" class="product_img">
+            <span class="product_name">DSLR Camera</span>
+            <div class="price_detail">
+                <strong>&#x20B9;</strong>
+                <span class="product_price">5000</span>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        <div class="items">
+            <img src="/images/ProductImages/product5.jpg" alt="product5" class="product_img">
+            <span class="product_name">Firefox Cycle</span>
+
+            <div class="price_detail">
+                <strong>&#x20B9;</strong>
+                <span class="product_price">6000</span>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Main-Content Product Listing -->
+
+   
+</body>
+</html>
