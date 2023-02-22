@@ -9,7 +9,6 @@ body {
 }
 
 .my-navbar {
-  width: 100vw;
   display: flex;
   position: sticky;
   background-color: #863a6f;
@@ -34,10 +33,6 @@ body {
   gap: 15px;
   padding: 0 50px 0 0;
 }
-
-/* .cart strong{
-    cursor: pointer;
-} */
 
 #cart-img {
   width: 50px;
